@@ -1,8 +1,8 @@
-import argparse # allows us to accept information through the terminal
-import json # format used to store structured information
-import logging # allows us to record what happens when our script runs
+import argparse # accepts information through the command line.
+import json # format used to store structured information.
+import logging # records successful and failed provision attempts.
 
-from pathlib import Path # Python module that helps us work with file and folder paths
+from pathlib import Path # Python module that helps us work with file and folder paths.
 
 
 # Location of the JSON file containing user records
