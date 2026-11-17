@@ -147,20 +147,9 @@ The project uses fictional user information for demonstration purposes.
 
 This project simulates user account lifecycle management using a local JSON database.
 
-It does not currently integrate with:
+It does not integrate with:
 - Microsoft Entra ID
 - Active Directory
-- Microsoft 365
 - Other enterprise identity providers
 
 The scripts manage local user records and do not disable real organizational accounts or revoke access to external services.
-
-## Future Improvements
-
-Potential extensions include:
-
-- Integration with an identity provider.
-- Automated license assignment and reclamation.
-- Employee onboarding and offboarding notifications.
-- Centralized database storage.
-- Additional monitoring and audit capabilities.
